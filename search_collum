@@ -2,3 +2,6 @@ awk -F ' ' '$6~/^2/' nba.Mar.2015.stats
 
 #The -F' ' seth field separator to ' '
 #The $6~/^2/ will be true if the 6th filed starts with 2
+
+awk -F ' ' '$2~/^Kyle/' nba.Mar.2015.stats 
+#$2~/^Kyle/' - Coloana 2 cauta Kyle
