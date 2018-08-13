@@ -1,0 +1,5 @@
+
+cat Decl.Ind.txt |grep -e "[A-Z]*:" |grep -Pzo '.*Georgia(.*\n)*'
+#cat-print document
+#1st grep-print line starting with capital letter [A-Z], *-any letter after
+#2nd grep-print line after pattern(in this case Georgia)
